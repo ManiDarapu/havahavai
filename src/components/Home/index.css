@@ -110,3 +110,31 @@
   border-bottom: 2px solid rgb(197, 195, 195); /* Adjust the thickness and color as needed */
   padding-bottom: 10px;
 }
+
+.newForm {
+  height: 60%;
+  width: 50%;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.label {
+  align-self: flex-start;
+  font-weight: bold;
+}
+.input {
+  border-radius: 10px;
+  height: 35px;
+  width: 80%;
+  padding-left: 3px;
+}
+.submit {
+  background-color: black;
+  color: white;
+  border: 5px white;
+  border-radius: 10px;
+  height: 35px;
+  width: 40%;
+}
