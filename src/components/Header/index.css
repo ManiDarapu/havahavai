@@ -1,0 +1,31 @@
+.headDiv1 {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  font-weight: 500;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.headDiv2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: auto;
+
+  width: 100%;
+  flex-direction: column;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+.headDiv21 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+}
+.homeP {
+  margin-right: 15px;
+}

@@ -1,0 +1,112 @@
+.hDiv1 {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+}
+.hLogo {
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  font-weight: bold;
+}
+.hDiv2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+}
+.airDiv1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 90%;
+  width: 80%;
+}
+.addBtn {
+  background-color: black;
+}
+.airDiv11 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+.airDiv12 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  width: 813px;
+  height: 205px;
+  pointer-events: auto;
+  position: relative;
+  overflow: visible;
+}
+.tableHead {
+  width: 100%;
+}
+.detailsDiv1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+  overflow: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.detailsDiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.detailsDiv21 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+  height: auto;
+}
+.detailsDiv211 {
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.detailsDiv2111 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.form {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.formDiv1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30%;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.formP {
+  border-bottom: 2px solid rgb(197, 195, 195); /* Adjust the thickness and color as needed */
+  padding-bottom: 10px;
+}
